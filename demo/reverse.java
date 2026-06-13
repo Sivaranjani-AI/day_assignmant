@@ -3,6 +3,7 @@ public class reverse{
       int a=20;
       int b=10;
 
+      int temp = a;
       a=b;
       b=temp;
       System.out.println("Updated a:"+a);
