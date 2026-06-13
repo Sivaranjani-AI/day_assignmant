@@ -1,4 +1,4 @@
-public class Printing {
+public class printing {
     public static void main(String[] args) {
         String name = "Vijayalakshmi";
         int age = 20;
