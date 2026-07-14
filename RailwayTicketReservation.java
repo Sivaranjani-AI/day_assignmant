@@ -38,7 +38,7 @@ public class RailwayTicketReservation {
         try {
             System.out.print("Enter Passenger Name: ");
             String name = sc.nextLine();
-            if (name == null || name.trim().isEmpty()) {
+            if (name == null || name.isEmpty()) {
                 throw new EmptyNameException("Passenger name cannot be empty!");
             }
 
